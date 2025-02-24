@@ -1,6 +1,7 @@
 #%% LIBRARY
 from openai import OpenAI
 import streamlit as st
+# import numpy as np
 
 #%% SIDER BAR INFOR & SIGN IN
 st.set_page_config(
@@ -9,7 +10,7 @@ st.set_page_config(
     )
 
 with st.sidebar:
-    # st.image('teacher_image.png')
+    st.image('teacher_image.png')
     st.markdown("""
                 **GIỚI THIỆU**
                 
@@ -37,7 +38,10 @@ with st.sidebar:
     passcode_system = "123"
     
 #%% INPUT FOR AI
-sys_msg = """
+with open("knowledge_base.txt", "r") as file:
+    kb_content = file.read()
+
+sys_msg = f"""
 Bạn là một giáo viên vật lí, bạn chỉ trả lời câu hỏi liên quan 
 tới chủ đề ánh sáng trong vật lí. Nếu câu hỏi nằm ngoài chủ đề, 
 từ chối trả lời một cách lễ phép.
@@ -45,8 +49,10 @@ Sử dụng ngôn ngữ trong sáng.
 
 Nếu người dùng hỏi bạn là ai, trả lời mình là trợ lí ảo của cô giáo Hoài, 
 giáo viên tại trường THCS Yên Sở.
-        """
 
+Trả lời dựa trên kiến thức từ {kb_content}
+        """
+        
 #%% MAIN SECTION
 st.title("Tí Quậy Ham Học")
 st.caption("Trợ giảng Khoa học tự nhiên từ Trí tuệ nhân tạo")
