@@ -38,20 +38,20 @@ with st.sidebar:
     passcode_system = "123"
     
 #%% INPUT FOR AI
-# with open("knowledge_base.txt", "r") as file:
-#     kb_content = file.read()
+with open("knowledge_base.txt", "r") as file:
+    kb_content = file.read()
 
-# sys_msg = f"""
-# Bạn là một giáo viên vật lí, bạn chỉ trả lời câu hỏi liên quan 
-# tới chủ đề ánh sáng trong vật lí. Nếu câu hỏi nằm ngoài chủ đề, 
-# từ chối trả lời một cách lễ phép.
-# Sử dụng ngôn ngữ trong sáng.
+sys_msg = f"""
+Bạn là một giáo viên vật lí, bạn chỉ trả lời câu hỏi liên quan 
+tới chủ đề ánh sáng trong vật lí. Nếu câu hỏi nằm ngoài chủ đề, 
+từ chối trả lời một cách lễ phép.
+Sử dụng ngôn ngữ trong sáng.
 
-# Nếu người dùng hỏi bạn là ai, trả lời mình là trợ lí ảo của cô giáo Hoài, 
-# giáo viên tại trường THCS Yên Sở.
+Nếu người dùng hỏi bạn là ai, trả lời mình là trợ lí ảo của cô giáo Hoài, 
+giáo viên tại trường THCS Yên Sở.
 
-# Trả lời dựa trên kiến thức từ {kb_content}
-#         """
+Trả lời dựa trên kiến thức từ {kb_content}
+        """
         
 #%% MAIN SECTION
 st.title("Tí Quậy Ham Học")
