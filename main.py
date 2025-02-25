@@ -2,6 +2,7 @@
 from openai import OpenAI
 import streamlit as st
 # import numpy as np
+from business import get_embedding
 
 #%% SIDER BAR INFOR & SIGN IN
 st.set_page_config(
