@@ -2,9 +2,7 @@
 from openai import OpenAI
 import streamlit as st
 # import numpy as np
-from business import (
-    get_embedding, get_knowledge_text, retrieve_relevant_knowledge
-    )
+from business import get_knowledge_text, retrieve_relevant_knowledge
 # import faiss
 
 #%% SIDER BAR INFOR & SIGN IN
