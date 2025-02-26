@@ -2,7 +2,10 @@
 from openai import OpenAI
 import streamlit as st
 # import numpy as np
-from business import get_embedding
+from business import (
+    get_embedding, get_knowledge_text, retrieve_relevant_knowledge
+    )
+# import faiss
 
 #%% SIDER BAR INFOR & SIGN IN
 st.set_page_config(
@@ -26,31 +29,25 @@ with st.sidebar:
                 """)
       
     # To be delete later
-    # openai_api_key = st.text_input("OpenAI API Key",
-    #                                key="API key",
-    #                                type="password")
+    openai_api_key = st.text_input("OpenAI API Key",
+                                   key="API key",
+                                   type="password")
     
-    openai_api_key = st.secrets["api"]["key"]
+    # openai_api_key = st.secrets["api"]["key"]
     
     passcode = st.text_input("Nhập code để sử dụng phần mềm",
                              type="password")
     
-    passcode_system = st.secrets["passcode"]["key"]
+    # passcode_system = st.secrets["passcode"]["key"]
+    passcode_system = "1234"
     
 #%% INPUT FOR AI
-with open("knowledge_base.txt", "r") as file:
-    kb_content = file.read()
+knowledge_text = get_knowledge_text()
 
-sys_msg = f"""
-Bạn là một giáo viên vật lí, bạn chỉ trả lời câu hỏi liên quan 
-tới chủ đề ánh sáng trong vật lí. Nếu câu hỏi nằm ngoài chủ đề, 
-từ chối trả lời một cách lễ phép.
-Sử dụng ngôn ngữ trong sáng.
-
-Nếu người dùng hỏi bạn là ai, trả lời mình là trợ lí ảo của cô giáo Hoài, 
-giáo viên tại trường THCS Yên Sở.
-
-Trả lời dựa trên kiến thức từ {kb_content}
+sys_msg = """
+Bạn là một giáo viên vật lí, bạn chỉ trả lời câu hỏi bằng kiến thức vật lí. 
+Nếu câu hỏi không trong sáng, từ chối trả lời một cách lễ phép.
+Sử dụng ngôn ngữ trong sáng. Nếu có công thức toán học, viết ở giữa hai dấu $.
         """
         
 #%% MAIN SECTION
@@ -93,9 +90,25 @@ if prompt := st.chat_input():  # Chat box
     # Show what the user types
     st.chat_message("user").write(prompt)
     
+    # Retrieve relevant knowledge from prompt
+    relevant_knowledge = retrieve_relevant_knowledge(
+        knowledge_text,
+        "knowledge_index.faiss",
+        prompt,
+        top_k=3
+        )
+    
+    rag_promp = f"""
+    Tham khảo thêm kiến thức từ {relevant_knowledge}
+    
+    Trả lời câu hỏi {prompt}
+    
+    """
+    
+    
     # Add user's promp to message history (stored in session state)    
     st.session_state.messages.append(
-        {"role": "user", "content": prompt}
+        {"role": "user", "content": rag_promp}
         )
 
     client = OpenAI(api_key=openai_api_key)
@@ -115,5 +128,6 @@ if prompt := st.chat_input():  # Chat box
         )
     
     # Show reponse
-    st.chat_message("assistant").write(msg)
+    with st.chat_message("assistant"):
+        st.markdown(msg.replace('\[', '$').replace('\]','$'))
     
