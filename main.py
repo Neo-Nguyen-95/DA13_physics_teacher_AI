@@ -96,22 +96,23 @@ if prompt := st.chat_input():  # Chat box
         top_k=3
         )
     
-    rag_promp = f"""
-    Tham khảo thêm kiến thức từ {relevant_knowledge}
+   
     
-    Trả lời câu hỏi {prompt}
-    
-    """
+    st.session_state.messages.append(
+        {"role": "system", "content": f"""
+        Tham khảo thêm kiến thức từ {relevant_knowledge}
+        """}
+        )
     
     
     # Add user's promp to message history (stored in session state)    
     st.session_state.messages.append(
-        {"role": "user", "content": rag_promp}
+        {"role": "user", "content": prompt}
         )
 
     client = OpenAI(api_key=openai_api_key)
     
-    # st.session_state.messages
+    st.session_state.messages
     
     # Get response from API & store it in session state
     response = client.chat.completions.create(
