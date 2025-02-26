@@ -29,17 +29,17 @@ with st.sidebar:
                 """)
       
     # To be delete later
-    openai_api_key = st.text_input("OpenAI API Key",
-                                   key="API key",
-                                   type="password")
+    # openai_api_key = st.text_input("OpenAI API Key",
+    #                                key="API key",
+    #                                type="password")
     
-    # openai_api_key = st.secrets["api"]["key"]
+    openai_api_key = st.secrets["api"]["key"]
     
     passcode = st.text_input("Nhập code để sử dụng phần mềm",
                              type="password")
     
-    # passcode_system = st.secrets["passcode"]["key"]
-    passcode_system = "1234"
+    passcode_system = st.secrets["passcode"]["key"]
+    # passcode_system = "1234"
     
 #%% INPUT FOR AI
 knowledge_text = get_knowledge_text()
