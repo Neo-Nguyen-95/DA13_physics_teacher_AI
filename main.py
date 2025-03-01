@@ -33,10 +33,10 @@ with st.sidebar:
     
     openai_api_key = st.secrets["api"]["key"]
     
-    passcode = st.text_input("Nhập code để sử dụng phần mềm",
-                             type="password")
+    # passcode = st.text_input("Nhập code để sử dụng phần mềm",
+    #                          type="password")
     
-    passcode_system = st.secrets["passcode"]["key"]
+    # passcode_system = st.secrets["passcode"]["key"]
     # passcode_system = "1234"
     
 #%% INPUT FOR AI
@@ -85,9 +85,9 @@ if prompt := st.chat_input():  # Chat box
         st.info("Please add your key")
         st.stop()
         
-    if passcode != passcode_system:
-        st.info("Code không hợp lệ, xin thử lại!")
-        st.stop()
+    # if passcode != passcode_system:
+    #     st.info("Code không hợp lệ, xin thử lại!")
+    #     st.stop()
         
     # Show what the user types
     st.chat_message("user").write(prompt)
