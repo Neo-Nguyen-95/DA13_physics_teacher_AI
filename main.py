@@ -22,7 +22,10 @@ with st.sidebar:
                 
                 ---
                 
-                **ĐĂNG NHẬP**
+                **CÁCH SỬ DỤNG AI**
+                - Hỏi câu hỏi liên quan tới chủ đề đang học
+                - Gõ đầy đủ câu, đúng chính ta
+                - Hỏi lại AI nếu chưa hiểu câu trả lời
                 
                 """)
       
