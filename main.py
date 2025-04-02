@@ -64,7 +64,7 @@ if "messages" not in st.session_state:
     st.session_state["messages"] = [
         {"role": "system",
          "content": sys_msg},
-        
+    
         # Welcome message
         {"role": "assistant", 
          "content": 
