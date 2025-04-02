@@ -68,7 +68,7 @@ if "messages" not in st.session_state:
         # Welcome message
         {"role": "assistant", 
          "content": 
-             """Xin chào, mình là trợ lí ảo của cô giáo Hoài, giáo viên tại 
+             """Xin chào, mình là trợ lí ảo của cô giáo Hoàn, giáo viên tại 
              trường THCS Yên Sở.
              Mình có thể giúp gì cho bạn?
              """
