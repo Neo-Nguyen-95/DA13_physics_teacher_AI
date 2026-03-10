@@ -1,147 +1,579 @@
+Hình học phẳng
+
+TRỪNĠNG HỘP ĐÔNG DẠNG THỨ NHẤT CÚA TAM GIÁC .
+
+## A. KIẾN THỨC TRỌNG TÂM.
+
+1. Trường hợp đồng dạng thứ nhất: cạnh - cạnh - cạnh.
+
+- Định lí: Nếu ba cạnh của tam giác này tỉ lệ với ba cạnh của tam giác kia thì hai tam giác đó đồng dạng.
+
+| GT | $\square A B C, \square A^{\prime} B^{\prime} C^{\prime}, \frac{A B}{A^{\prime} B^{\prime}}=\frac{B C}{B^{\prime} C^{\prime}}=\frac{C A}{C^{\prime} A^{\prime}}$ |
+| :--- | :--- |
+| KL | $\square A B C \cos \square A^{\prime} B^{\prime} C^{\prime}$ |
+
+2. Áp dụng trường hợp đồng dạng thứ nhất của tam giác vào tam giác vuông.
+
+- Định lí: Nếu cạnh huyền và một cạnh góc vuông của tam giác vuông này tỉ lệ với cạnh huyền và một cạnh góc vuông của tam giác vuông kia thì hai tam giác vuông đó đồng dạng.
+
+$$
+\begin{array}{l|l} 
+& \square A B C, \square A^{\prime} B^{\prime} C^{\prime}, \hat{A}=\widehat{A}^{\prime}=90^{\circ} \\
+\mathrm{GT} & \frac{B^{\prime} C^{\prime}}{B C}=\frac{A^{\prime} B^{\prime}}{A B} \\
+\hline \mathrm{KL} & \square A^{\prime} B^{\prime} C^{\prime} \leadsto \square A B C
+\end{array}
+$$
+
+## B. CÁC DẠNG BÀI TẬP VÀ PHƯƠNG PHÁP GIẢI
+
+Dạng 1: Chứng minh hai tam giác đồng dạng
+
+- Để chứng minh hai tam giác đồng dạng khi độ dài các cạnh của nó, ta lập các tỉ số các cạnh tương ứng của hai tam giác và chứng minh chúng bằng nhau.
+Ví dụ 1. Hai tam giác mà các cạnh có độ dài như sau có đồng dạng với nhau không? Vì sao?
+a) $6 \mathrm{~cm}, 9 \mathrm{~cm}, 12 \mathrm{~cm}$ và $24 \mathrm{~cm}, 18 \mathrm{~cm}, 12 \mathrm{~cm}$;
+b) $\square A B C$ và $\square D E F$ có $\frac{A B}{3}=\frac{A C}{4}=\frac{B C}{5}$ và $\frac{D E}{6}=\frac{D F}{8}=\frac{E F}{9}$.
 
 
-Ánh sáng là một dạng của năng lượng.  
-Ánh sáng không thể thiếu trong cuộc sống của con người và các vật sống khác trên Trái Đất. Việc tìm hiểu ánh sáng sẽ giúp em giải thích được vì sao ánh sáng lại có vai trò quan trọng như vậy.  
+## Lời giải
 
-Khi chưa bật đèn, kim điện kế chỉ số 0, chứng tỏ pin quang điện không phát điện.  
-Khi bật đèn, kim điện kế bị lệch đi, chứng tỏ pin quang điện đã nhận được năng lượng ánh sáng của đèn để chuyển hóa thành điện năng, làm lệch kim điện kế.
+a) Ta có $\frac{6}{12}=\frac{9}{18}=\frac{12}{24}=\frac{1}{2}$ nên hai tam giác đồng dạng.
+b) Đặt $\frac{A B}{3}=\frac{A C}{4}=\frac{B C}{5}=m$ và $\frac{D E}{6}=\frac{D F}{8}=\frac{E F}{9}=n$, ta có $A B=3 m, A C=4 m, B C=5 m$ và $D E=6 n$, $D F=8 n, E F=9 n$.
 
-Nguồn: Bài 15: NĂNG LƯỢNG ÁNH SÁNG. TIA SÁNG, VÙNG TỐI, Trang 72-73, sách Khoa học tự nhiên 7, kết nối tri thức với cuộc sống.
+Lập tỉ số các cặp cạnh tương ứng, dẫn tới kết luận hai tam giác không đồng dạng.
 
----
+## PHIẾU BÀI TẬP TOÁN 8
 
-**Chùm sáng và tia sáng**  
+Ví dụ 2. Cho tam giác $A B C$, điểm $O$ nằm trong tam giác. Gọi $D, E, F$ lần lượt là trung điểm của $O A, O B$ , $O C$.
+a) Chứng minh $\square D E F$ cs $\square A B C$, tìm tỉ số đồng dạng.
+b) Biết chu vi $\square A B C$ bằng 26 cm . Tìm chu vi $\square D E F$.
 
-### 1. Chùm sáng  
-Ánh sáng phát ra từ nguồn sáng và truyền trong không gian tạo thành những chùm sáng.  
-Tùy thuộc vào nguồn sáng, chùm sáng có hình dạng và kích thước khác nhau.  
+## Lời giải.
 
-Hình 15.3 mô tả ba loại chùm sáng thường gặp:  
-- **Chùm sáng song song**  
-- **Chùm sáng hội tụ**  
-- **Chùm sáng phân kỳ**  
+a) Sử dụng tính chất đường trung bình của tam giác ta có $\frac{D E}{A B}=\frac{D F}{A C}=\frac{E F}{B C}=\frac{1}{2}$.
+$\Rightarrow \square D E F \backsim \square A B C$, tỉ số đồng dạng bằng $\frac{1}{2}$.
+b) Tỉ số chu vi của hai tam giác đồng dạng bằng tỉ số dạng, từ đó tìm được chu vi $\square D E F$ là 13 cm .
+![](https://cdn.mathpix.com/cropped/660b86b5-045f-4591-b515-02d427fa0e88-2.jpg?height=410&width=680&top_left_y=534&top_left_x=1105)
+đồng
 
-Quy ước vẽ chùm sáng bằng hai đường thẳng giới hạn chùm sáng, có mũi tên chỉ chiều truyền của ánh sáng (Hình 15.4).  
-- **Chùm sáng song song**  
-- **Chùm sáng hội tụ**  
-- **Chùm sáng phân kỳ**  
+Dạng 2: Sử dụng trường hợp đồng dạng thứ nhất để tính độ dài các cạnh hoặc chứng minh các góc bằng nhau
 
-Nguồn: Bài 15: NĂNG LƯỢNG ÁNH SÁNG. TIA SÁNG, VÙNG TỐI, Trang 73-74, sách Khoa học tự nhiên 7, kết nối tri thức với cuộc sống.
-
----
-### **Tia sáng**  
-
-Chúng ta đã biết ánh sáng truyền theo đường thẳng.  
-
-Quy ước biểu diễn đường truyền của ánh sáng bằng một đường thẳng có mũi tên chỉ chiều truyền của ánh sáng, gọi là **tia sáng**.  
-
-Đường thẳng có hướng **SM** trong Hình 15.5 biểu diễn một tia sáng.
-
-Nguồn: Bài 15: NĂNG LƯỢNG ÁNH SÁNG. TIA SÁNG, VÙNG TỐI, Trang 74, sách Khoa học tự nhiên 7, kết nối tri thức với cuộc sống.
-
----
-
-### **1. Vùng tối do nguồn sáng hẹp**  
-
-Dùng loại **đèn pin nhỏ** chỉ có **một bóng đèn LED nhỏ** để tạo ra nguồn sáng hẹp. Đặt trước đèn một **quả bóng nhỏ** làm vật cản sáng.  
-
-#### **Quan sát thí nghiệm (Hình 15.8)**  
-- **Phía sau vật cản sáng có vùng hoàn toàn không nhận được ánh sáng từ nguồn sáng truyền tới.**  
-- Vùng này được gọi là **vùng tối**.  
+- Vận dụng trường hợp đồng dạng thứ nhất (nếu cần) để chứng minh hai tam giác đồng dạng, từ đó suy ra các cặp góc bằng nhau.
+Ví dụ 3. Cho tam giác $A B C$ vuông tại $A$ có $A B=6 \mathrm{~cm}, A C=8 \mathrm{~cm}$. Trên cạnh $A C$ lấy $D$ sao cho $A D=4,5$ cm . Chứng minh
+a) $\square A B C \backsim \square A D B$;
+b) $A B C=A D B$.
 
 
-### **2. Vùng tối do nguồn sáng rộng**  
+## Lời giải.
 
-Thực hiện lại thí nghiệm trên nhưng sử dụng **đèn LED 20W** làm **nguồn sáng rộng**.  
+a) Áp dụng định lý Py-ta-go tính được $B C=10 \mathrm{~cm}, B D=7,5 \mathrm{~cm}$.
 
-#### **Quan sát thí nghiệm (Hình 15.9)**  
-- **Phía sau vật cản sáng xuất hiện hai vùng:**  
-  1. **Vùng tối hoàn toàn**: Không nhận được ánh sáng từ nguồn sáng.  
-  2. **Vùng tối không hoàn toàn**: Chỉ nhận được một phần ánh sáng từ nguồn sáng truyền tới.  
+Bởi vậy $\frac{A B}{A D}=\frac{A C}{A B}=\frac{B C}{B D}=\frac{4}{3} \Rightarrow \square A B C \backsim \square A D B$ (c.c.c).
+b) Từ câu a) suy ra $A B C=A D B$ (góc tương ứng).
+![](https://cdn.mathpix.com/cropped/660b86b5-045f-4591-b515-02d427fa0e88-2.jpg?height=371&width=451&top_left_y=1562&top_left_x=1320)
 
-Điều này lý giải vì sao khi dùng bóng đèn dây tóc (nguồn sáng hẹp), bóng của vật sẽ **rõ nét**, còn khi dùng bóng đèn ống (nguồn sáng rộng), bóng của vật sẽ **mờ hơn** do có vùng tối không hoàn toàn.
+## C. BÀI TẬP VẬN DỤNG
 
-Nguồn: Bài 15: NĂNG LƯỢNG ÁNH SÁNG. TIA SÁNG, VÙNG TỐI, Trang 77, sách Khoa học tự nhiên 7, kết nối tri thức với cuộc sống.
+Bài 1. Tam giác $A B C$ có độ dài các cạnh là $A B=3 \mathrm{~cm}, A C=5 \mathrm{~cm}$ và $B C=7 \mathrm{~cm}$. Tam giác $M N P$ đồng dạng với tam giác $A B C$ có độ dài cạnh nhỏ nhất là 1 cm . Tính độ dài các cạnh còn lại của tam giác $M N P$.
+
+## Lời giải
+
+Tỉ số đồng dạng của hai tam giác là $\frac{1}{3}$, từ đó tính được $M N=1 \mathrm{~cm}, N P=\frac{7}{3} \mathrm{~cm}, M P=\frac{5}{3} \mathrm{~cm}$.
+
+## PHIẾU BÀI TẬP TOÁN 8
+
+Bài 2. Cho tam giác $A B C$ vuông tại $A$ có $A B=10 \mathrm{~cm}, A C=20 \mathrm{~cm}$. Trên $A C$ lấy $M$ sao cho $A M=5 \mathrm{~cm}$.
+a) Tính độ dài $B C, B M$.
+b) Chứng minh $\square A B C \backsim \square A M B$.
+
+## Lời giải.
+
+a) Áp dụng định lý Py-ta-go tính được
+
+$$
+B C=10 \sqrt{5} \mathrm{~cm}, B M=5 \sqrt{5} \mathrm{~cm}
+$$
+
+![](https://cdn.mathpix.com/cropped/660b86b5-045f-4591-b515-02d427fa0e88-3.jpg?height=417&width=615&top_left_y=246&top_left_x=1190)
+b) Ta có $\frac{B M}{B C}=\frac{A M}{A B}=\frac{A B}{A C}=\frac{1}{2} \Rightarrow \square A B C \cos \square A M B$ (c.c.c).
+
+Bài 3. Tam giác $A B C$ có ba đường trung tuyến cắt nhau tại $O$. Gọi $P, Q, R$ theo thứ tự là trung điểm của $O A, O B, O C$. Chứng minh $\square P Q R$ cs □ $A B C$.
+
+## Lời giải.
+
+Theo tính chất đường trung bình của tam giác $A B C$, suy $\frac{P Q}{A B}=\frac{P R}{A C}=\frac{Q R}{B C}=\frac{1}{2}$.
+
+Vì vậy $\square P Q R$ cs □ $A B C$ (c.c.c).
+
+## D. BÀI TẬP VỂ NHÀ
+
+![](https://cdn.mathpix.com/cropped/660b86b5-045f-4591-b515-02d427fa0e88-3.jpg?height=444&width=690&top_left_y=934&top_left_x=1117)
+
+Bài 4. Hai tam giác mà các cạnh có độ dài như sau có đồng ra dạng với nhau không? Vì sao?
+a) $4 \mathrm{~cm}, 5 \mathrm{~cm}, 6 \mathrm{~cm}$ và $12 \mathrm{~cm}, 15 \mathrm{~cm}, 18 \mathrm{~cm}$;
+b) $\square A B C$ vuông tại $A$ có $A B=6 \mathrm{~cm}, A C=8 \mathrm{~cm}$ và $\square M N P$ vuông tại $M$ có $M N=4 \mathrm{~cm}, M P=3 \mathrm{~cm}$.
+
+## Lời giải
+
+a) Ta có $\frac{4}{12}=\frac{5}{15}=\frac{6}{18}=\frac{1}{3}$ nên hai tam giác đồng dạng.
+b) Dùng định lý Py-ta-go tính được $B C=10 \mathrm{~cm}, N P=5 \mathrm{~cm}$.
+
+Lập tỉ số các cặp cạnh tương ứng, ta có $\square A B C \backsim \square M P N$.
+Bài 5. Cho tam giác $A B C$. Gọi $M, N, P$ lần lượt là trung điểm của $B C, C A, A B$. Chứng minh
+a) $\square A B C$ cs $\square M N P$, tìm tỉ số đồng dạng.
+b) Tỉ số chu vi của $\square A B C$ và $\square M N P$ bằng 2 .
+
+## Lời giải.
+
+a) Sử dụng tính chất đường trung bình của tam giác ta có $\frac{M N}{A B}=\frac{N P}{B C}=\frac{M P}{A C}=\frac{1}{2}$.
+
+## PHIẾU BÀI TẬP TOÁN 8
+
+$\Rightarrow \square A B C \backsim \square M N P$, tỉ số đồng dạng bằng $\frac{1}{2}$.
+b) Vì $\frac{M N}{A B}=\frac{N P}{B C}=\frac{M P}{A C}=\frac{1}{2}$ (cmt)
+$\Rightarrow \frac{M N+N P+M P}{A B+B C+A C}=\frac{1}{2}$ (tính chất dãy tỉ số bằng nhau).
+Từ đó ta có $\frac{P_{M N P}}{P_{A B C}}=\frac{1}{2} \Rightarrow \frac{P_{A B C}}{P_{M N P}}=2$.
+![](https://cdn.mathpix.com/cropped/660b86b5-045f-4591-b515-02d427fa0e88-4.jpg?height=469&width=668&top_left_y=205&top_left_x=1101)
+
+Bài 6. Cho tứ giác $A B C D$ có $A B=8 \mathrm{~cm}, B C=3 \mathrm{~cm}, C D=2 \mathrm{~cm}, A D=6 \mathrm{~cm}$ và $B D=4 \mathrm{~cm}$. Chứng minh
+a) $\square A B D \backsim \square B D C$;
+b) $A B C D$ là hình thang.
+
+## Lời giải.
+
+a) Ta có $\frac{A B}{B D}=\frac{B D}{D C}=\frac{A D}{B C}=2$
+$\Rightarrow \square A B D \backsim \square B D C$ (c.c.c)
+b) Từ câu a) $\Rightarrow A B D=B D C \Rightarrow A B \square D C$
+$\Rightarrow A B C D$ là hình thang.
+![](https://cdn.mathpix.com/cropped/660b86b5-045f-4591-b515-02d427fa0e88-4.jpg?height=378&width=783&top_left_y=945&top_left_x=970)
+
+I. Mục tiêu: Sau khi học xong bài này học sinh có khả năng:
+
+1. Về kiến thức:
+
+- Nhận biết và giải thích hai tam giác đồng dạng dựa trường hợp đồng dạng thứ nhất của hai tam giác.
+- Áp dụng trường hợp đồng dạng c.c.c của hai tam giác vào nhận biết hai tam giác vuông đồng dạng
+- Áp dụng các trường hợp đồng dạng của hai tam giác vào các vấn đề thực tiễn
+- Sử dụng được kiến thức để giải các dạng bài tập
 
 
----
+## 2. Về năng lực:
 
-# Ảnh Của Vật Qua Gương Phẳng  
+* Năng lực chung:
+- Năng lực tự học: HS tự hoàn thành được các nhiệm vụ học tập chuẩn bị ở nhà và tại lớp.
+- Năng lực giao tiếp và hợp tác: HS phân công được nhiệm vụ trong nhóm, biết hỗ trợ nhau, trao đổi, thảo luận, thống nhất được ý kiến trong nhóm để hoàn thành nhiệm vụ.
+* Năng lực đặc thù:
+- Năng lực giao tiếp toán học: Nêu được Trường hợp đồng dạng thứ nhất của tam giác, Áp dụng vào tam giác vuông.
+- Năng lực sử dụng công cụ và phương tiện học toán: sử dụng được thước thẳng, thước đo độ, compa để đo độ dài cạnh, kiểm tra góc vuông, đo góc, vẽ tam giác theo tỉ lệ cho trước.
+- Năng lực tư duy và lập luận toán học, năng lực giải quyết vấn đề toán học, năng lực mô hình hóa toán học: thực hiện được các thao tác tư duy so sánh, phân tích, tổng hợp, khái quát hóa, ... để nhận biết và chứng minh hai tam giác đồng dạng với nhau theo trường hợp cạnh - cạnh - cạnh; vận dụng được các tính chất giải bài tập một số bài tập có nội dung gắn với thực tiễn.
 
-## I. Ảnh của vật qua gương phẳng  
 
-Khi soi gương, chúng ta có thể nhìn thấy hình ảnh của chính mình phản chiếu trong gương. Hình ảnh này không phải là vật thật mà là **ảnh của vật qua gương phẳng**.  
+## 3. Về phẩm chất:
 
-### Ví dụ thực tế:  
-- Khi nhìn xuống mặt nước trong, ta có thể thấy hình ảnh phản chiếu của cây cối trên bờ.  
-- Khi lái xe, ta có thể quan sát được hình ảnh của các phương tiện phía sau thông qua gương chiếu hậu.  
-- Khi đứng trước một tấm gương lớn, ta thấy hình ảnh của mình được phản chiếu rõ ràng.  
+- Chăm chỉ: thực hiện đầy đủ các hoạt động học tập một cách tự giác, tích cực.
+- Trung thực: thật thà, thẳng thắn trong báo cáo kết quả hoạt động cá nhân và theo nhóm, trong đánh giá và tự đánh giá.
+- Trách nhiệm: hoàn thành đầy đủ, có chất lượng các nhiệm vụ học tập.
 
-Tất cả những hình ảnh này đều là ảnh tạo bởi gương phẳng, tuân theo những tính chất nhất định mà chúng ta sẽ tìm hiểu ngay sau đây.  
 
----
+## II. Thiết bị dạy học và học liệu
 
-## II. Tính chất của ảnh qua gương phẳng  
+1. Giáo viên: SGK, kế hoạch bài day, thước thẳng, com pa, thước đo góc, giấy, máy chiếu
+2. Học sinh: SGK, thước thẳng, compa, thước đo góc, bảng nhóm
 
-Ảnh của vật qua gương phẳng có ba tính chất quan trọng sau:  
+## III. Tiến trình dạy học
 
-1. **Ảnh là ảnh ảo** – không thể hứng được trên màn chắn.  
-2. **Ảnh có kích thước bằng với vật** – không bị phóng to hay thu nhỏ.  
-3. **Khoảng cách từ vật đến gương bằng khoảng cách từ ảnh đến gương** – ảnh và vật đối xứng nhau qua gương phẳng.  
+## 1. Hoạt động 1: Khởi động (5 phút)
 
----
-### Thí nghiệm kiểm tra tính chất của ảnh qua gương phẳng  
----
-#### **1. Kiểm tra ảnh có hứng được trên màn chắn không**  
-**Cách tiến hành:**  
-- Đặt một gương phẳng thẳng đứng trên mặt bàn ngang.  
-- Đặt một viên phấn trước gương.  
-- Đưa một tấm bìa (dùng làm màn chắn) ra sau gương để kiểm tra xem ảnh có xuất hiện trên màn chắn hay không.  
+a) Mục tiêu: Gợi động cơ và bài mới
+b) Nội dung: Chơi trò chơi "Lật mảnh ghép" Thực hiện một số bài tập về tam giác đồng dạng.
+c) Sản phẩm: Từ bài toán HS vận dụng kiến thức để trả lời câu hỏi GV đưa ra
+d) Tổ chức thực hiện:
 
-**Kết quả:**  
-- Khi quan sát, ta thấy ảnh của viên phấn xuất hiện trong gương nhưng không thể hứng ảnh này trên màn chắn đặt phía sau gương.  
+| Hoạt động của GV - HS |
+| :---: |
+| * GV giao nhiệm vụ học tập |
+| GV tô̂ chức trò chơi yêu cẩu HS trả lời các câu |
 
-**Kết luận:**  
-- Ảnh của vật qua gương phẳng là ảnh ảo.  
----
-#### **2. Kiểm tra độ lớn của ảnh và khoảng cách từ vật đến gương**  
-**Cách tiến hành:**  
-- Đặt một cây nến trước gương phẳng và thắp sáng.  
-- Đưa một cây nến khác ra phía sau tấm kính, di chuyển cho đến khi ảnh của ngọn lửa cây nến thứ nhất trùng với ngọn lửa của cây nến thứ hai.  
-- So sánh kích thước của ảnh cây nến 1 và cây nến 2.  
-- Đo khoảng cách từ hai cây nến đến tấm kính.  
+hỏi sau:
+H1: Cho $\triangle A^{\prime} B^{\prime} C^{\prime} \operatorname{cs} \triangle A B C$ có các cặp góc tương ứng bằng nhau là?
 
-**Kết quả:**  
-- Kích thước ảnh của cây nến 1 bằng với cây nến 2.  
-- Khoảng cách từ ảnh đến gương phẳng bằng khoảng cách từ vật đến gương phẳng.  
+H2: Cho $\triangle A^{\prime} B^{\prime} C^{\prime} \infty \triangle A B C$ có các cặp cạnh tương ứng tỉ lệ là?
 
-**Kết luận:**  
-- Độ lớn của ảnh qua gương phẳng bằng độ lớn của vật.  
-- Khoảng cách từ ảnh đến gương bằng khoảng cách từ vật đến gương.  
+H3: Cho $\triangle A B C \backsim \triangle M N P$ có
+$A=45^{\circ}, B=60^{\circ}$ tính các góc $C, M$.
 
-Như vậy, những dự đoán ban đầu của chúng ta về tính chất của ảnh qua gương phẳng là chính xác.  
+Tiến trình nội dung
+Câu 1: Cho $\triangle A^{\prime} B^{\prime} C^{\prime} \backsim \triangle A B C$ có các cặp góc tương ứng bằng nhau là?
 
----
+Đáp án: A) $A=A^{\prime}, B=B^{\prime}, C=C^{\prime}$
+Câu 2: Cho $\triangle A^{\prime} B^{\prime} C^{\prime}$ cs $\triangle A B C$ có các cặp cạnh tương ứng tỉ lệ là?
+Đáp án: A) $\frac{A^{\prime} B^{\prime}}{A B}=\frac{B^{\prime} C^{\prime}}{B C}=\frac{A^{\prime} C^{\prime}}{A C}$
+Câu 3: Cho $\triangle A B C \backsim \triangle M N P$ có $A=45^{\circ}, B=60^{\circ}$ tính các góc C , M.
 
-## III. Ứng dụng ảnh của gương phẳng trong thực tế  
----
-Gương phẳng có nhiều ứng dụng trong đời sống hằng ngày, từ thiết kế nội thất đến các công cụ quan sát và giao thông.  
----
-1. **Trong trang trí nội thất:**  
-   - Gương phẳng được sử dụng rộng rãi trong trang trí nhà ở, cửa hàng, khách sạn,...  
-   - Chúng giúp tạo cảm giác không gian rộng hơn, sáng sủa hơn, đặc biệt là trong những căn phòng nhỏ.  
----
-2. **Trong giao thông:**  
-   - Các biển báo giao thông và vạch phân làn đường thường sử dụng sơn phản quang để tăng khả năng quan sát vào ban đêm.  
-   - Gương chiếu hậu của xe máy, ô tô giúp tài xế nhìn rõ các phương tiện phía sau.  
----
-3. **Trong quân sự và hàng hải:**  
-   - **Kính tiềm vọng** là một ứng dụng đặc biệt của gương phẳng, giúp quan sát trong điều kiện bị che khuất.  
-   - Kính tiềm vọng được sử dụng trong tàu ngầm để quan sát trên mặt nước mà không cần nổi lên.  
-   - Trong quân đội, kính tiềm vọng giúp người lính quan sát mục tiêu mà không cần lộ diện.  
+Đáp án: D) $\hat{C}=75^{\circ}, \hat{M}=45^{\circ}$
+Câu 4: Cho $\triangle A B C \backsim \triangle M N P$ có
 
----
+| Hoạt động của GV - HS | Tiến trình nội dung |
+| :--- | :--- |
+| H4: Cho $\triangle A B C \backsim \triangle M N P$ có $A B=4, B C=5, M N=8$ tính độ dài cạnh NP <br> * HS thực hiện nhiệm vụ <br> - HS hoạt động cá nhân trong thời gian 2 phút. <br> - HS vận dụng kiến thức đã học, xác địnhcâu trả lời đúng. <br> * Báo cáo, thảo luận <br> - GV yêu cầu 4 HS trả lời câu hỏi trong phần trò chơi. <br> - HS cả lớp lắng nghe, nhận xét. <br> * Kết luận, nhận định <br> - GV Đưa tình huống trong phần đầu bài (chiếu Slide tương ứng). <br> Giáo viên chiếu hình ảnh hai tòa nhà có cùng hình dạng nhưng kích thước khác nhau. <br> Câu hỏi: Làm thế nào để biết hai hình này "giống nhau về hình dạng"? <br> GV dẫn dắt: Trong toán học, mối quan hệ này được gọi là "đồng dạng". Hôm nay chúng ta sẽ nghiên cứu một trường hợp đặc biệt của tam giác đông dạng. | $A B=4, B C=5, M N=8$ tính độ dài cạnh NP <br> Đáp án: A) 10 |
 
-## Kết luận  
+2. Hoạt động 2: Hình thành kiến thức ( 20 phút)
 
-Gương phẳng không chỉ giúp chúng ta soi gương hằng ngày mà còn có nhiều ứng dụng quan trọng trong đời sống và công nghệ. Việc hiểu rõ tính chất của ảnh qua gương phẳng giúp chúng ta ứng dụng hiệu quả hơn trong thực tế, từ thiết kế không gian đến giao thông và khoa học kỹ thuật.
+## Hoạt động 2.1: TRƯỜNG HỢP ĐỒNG DẠNG THỨ NHÁT CẠNH - CẠNH - CANH
+
+a) Mục tiêu:
+
+HS khám phá và phát biểu định lý.
+b) Nội dung:
+
+Bước 1: Khám phá bằng công nghệ
+GV sử dụng GeoGebra hiển thị hai tam giác có các cạnh tỉ lệ.
+HS quan sát và nhận xét.
+Bước 2: Thảo luận nhóm
+HS đo các cạnh và lập tỉ số.
+Bước 3: Kết luận
+HS rút ra nhận xét:
+Nếu ba cặp cạnh của hai tam giác tỉ lệ thì hai tam giác đó đồng dạng.
+GV chuâ̂n hóa kiến thức và ghi bảng định lý.
+c) Sản phẩm:
+
+- HS hoàn thành tìm hiểu kiến thức
+d) Tổ chức thực hiện:
+
+| Hoạt động của GV - HS | Tiến trình nội dung |
+| :--- | :--- |
+| * GV giao nhiệm vụ học tập 1 <br> - GV yêu cầu HS thực hiện hoạt động 1 SGK : Trong Hình 56 và so sanh các tỉ số $\frac{A^{\prime} B^{\prime}}{A B} ; \frac{B^{\prime} C^{\prime}}{B C} ; \frac{A^{\prime} C^{\prime}}{A C}$ (hiển thị tam giác trên ứng dụng GeoGebra) | I. TRƯỜNG HỢP ĐỒNG DẠNG THÚ' NHẤT CẠNH - CẠNH - CẠNH |
+
+- Giới thiệu định lí:
+* HS thực hiện nhiệm vụ 1
+- HS Hoạt động cá nhân để thực hiện hoạt động 1 trong SGK
+- Hướng dân hỗ trợ: GV quan sát hỗ trợ HS thực hiện tính tỉ lệ các cạnh của hai tam giác đúng theo yêu câu của bài toán.
+* Báo cáo, thảo luận 1
+- GV yêu cầu HS trả lời miệng hoạt động 1
+- HS cả lớp quan sát, lắng nghe, nhận xét.
+* Kết luận, nhận định 1
+- GV chính xác hóa kết quả hoạt động 1 và giới thiệu trường hợp đồng dạng thứ nhất cạnh - cạnh - cạnh của tam giác.
+
+GV chiếu Slide về chứng minh định lí yêu cầu HS đứng tại chỗ trình bày cách chứng minh.
+Yêu cầu HS về nhà làm lại coi như bài tập về nhà
+
+## * GV giao nhiệm vụ học tập 2
+
+Quan sát hình 58 hãy chỉ ra các tam giác đồng dạng.
+![](https://cdn.mathpix.com/cropped/a3deb612-95b5-41ed-a0e6-d16ae1dc9f3b-3.jpg?height=242&width=706&top_left_y=1194&top_left_x=302)
+
+## * HS thực hiện nhiệm vụ 2
+
+- HS thảo luận cặp đôi Ví dụ 1 sau đó trình bày kết quả
+
+
+## * Báo cáo, thảo luận 2
+
+- GV hướng dẫn HS thảo luận theo cặp đôi, sau đó gọi đại diện cặp đôi trả lời.
+- Yêu cầu HS nhận xét câu trả lời của bạn
+* Kết luận, nhận định 2
+- GV chính xác hóa các kết quả và khắc sâu kiến thức về định lí Trường hợp đồng dạng thứ nhất của tam giác.
+![](https://cdn.mathpix.com/cropped/a3deb612-95b5-41ed-a0e6-d16ae1dc9f3b-3.jpg?height=755&width=746&top_left_y=116&top_left_x=1104)
+
+Định lí: Nếu ba cạnh của một tam giác này tỉ lệ với ba cạnh của một tam giác kia thì hai tam giác đó đồng dạng với nhau.
+
+## Ví dụ 1
+
+Xét hai $\triangle A B C$ và $\triangle M N P$ có
+$\frac{A B}{M N}=\frac{5}{2,5}=2, \frac{B C}{N P}=\frac{4}{2}=2$,
+$\frac{C A}{P M}=\frac{6}{3}=2$
+Suy ra $\frac{A B}{M N}=\frac{B C}{N P}=\frac{C A}{P M}$
+Vậy $\triangle A B C \backsim \triangle M N P$
+Xét hai $\triangle D E F$ và $\triangle S Q R$ có
+$\frac{D E}{S Q}=\frac{2,2}{4,4}=\frac{1}{2}, \frac{E F}{Q R}=\frac{2}{4}=\frac{1}{2}$,
+$\frac{F D}{R S}=\frac{3}{6}=\frac{1}{2}$
+Suy ra $\frac{D E}{S Q}=\frac{E F}{Q R}=\frac{F D}{R S}$
+Vậy $\triangle D E F \backsim \triangle S Q R$
+
+Suy ra $\frac{A B}{M N}=\frac{B C}{N P}=\frac{C A}{P M}$
+Vậy $\triangle A B C \backsim \triangle M N P$
+Xét hai $\triangle D E F$ và $\triangle S Q R$ có
+
+|  | $\frac{D E}{S Q}=\frac{2,2}{4,4}=\frac{1}{2}, \frac{E F}{Q R}=\frac{2}{4}=\frac{1}{2}$, <br> $\frac{F D}{R S}=\frac{3}{6}=\frac{1}{2}$ <br> Suy ra $\frac{D E}{S Q}=\frac{E F}{Q R}=\frac{F D}{R S}$ <br> Vậy $\triangle D E F \backsim \triangle S Q R$ |
+| :--- | :--- |
+
+## Hoạt động 2.2: Luyện tập
+
+a) Mục tiêu:
+
+- Thực hiện được ví dụ 1 và phần luyện tập 1 .
+b) Nội dung:
+- Thực hiện hoạt động 1 SGK
+- Thực hiện ví dụ 2 SGK
+c) Sản phẩm:
+- HS làm được HĐ 1 và ví dụ 2.
+- Áp dụng được định lí trường hợp đồng dạng thứ nhất của tam giác.
+d) Tổ chức thực hiện:
+
+| Hoạt động của GV - HS | Tiến trình nội dung |
+| :--- | :--- |
+| * GV giao nhiệm vụ học tập 1 <br> - Thực hiện Luyện tập 1-SGK -75 <br> + Yêu cầu Hs vẽ hình. <br> + HĐ cặp đôi thực hiện làm bài tập.![](https://cdn.mathpix.com/cropped/a3deb612-95b5-41ed-a0e6-d16ae1dc9f3b-4.jpg?height=547&width=601&top_left_y=1392&top_left_x=297) <br> * HS thực hiện nhiệm vụ 1 <br> - HS thảo luận cặp đôi thực hiện nhiệm vụ học tập 1 <br> - Đại diện học sinh trình bày kết quả <br> * Báo cáo, thảo luận 1 <br> - GV yêu cầu 1 HS đại diện đứng tại chỗ trình bày kết quả hoạt động 1 SGK <br> - HS lắng nghe và nhận xét bài làm của bạn. <br> * Kết luận, nhận định 1 <br> - GV lắng nghe rồi chốt lại tính chất của tam giác cân | Hoạt động 1 <br> Sử dụng tính chất đường trung bình của tam giác ta có $\frac{A^{\prime} B^{\prime}}{A B}=\frac{A^{\prime} C^{\prime}}{A C}=\frac{B^{\prime} C^{\prime}}{B C}=\frac{1}{2}$. <br> Nên ta có $\triangle A^{\prime} B^{\prime} C^{\prime}$ cs $\triangle A B C$ |
+| * GV giao nhiệm vụ học tập 2 | Ví dụ 2 |
+
+![](https://cdn.mathpix.com/cropped/a3deb612-95b5-41ed-a0e6-d16ae1dc9f3b-5.jpg?height=487&width=399&top_left_y=214&top_left_x=300)
+
+## * Ví dụ 2
+
+- Thực hiện ví dụ 2 SGK - 75
+* HS thực hiện nhiệm vụ 2
+- HS hoạt động thực hiện cá nhân ví dụ 2 sau đó trình bày kết quả
+* Báo cáo, thảo luận 2
+- GV yêu cầu 1 HS lên bảng trình bày ví dụ 2 trang 75 SGK
+- GV yêu cầu HS cả lớp quan sát và nhận xét bài làm của bạn.
+- GV yêu cầu 1 HS đọc chú ý trang 75 SGK
+* Kết luận, nhận định 2
+- GV nhận xét bài làm của HS
+- GV chính xác hóa kết quả và giới thiệu về tam giác vuông cân, tính chất của tam giác vuông cân.
+
+Vì $M, N$ lần lượt là trung điểm của các cạnh $B C, C A$ nên $M N$ là đường trung bình của tam giác $A B C$.
+Suy ra $M N=\frac{1}{2} A B(1)$
+Vì $I, H$ lần lượt là trung điểm của các cạnh $N P, P M$ nên $I H$ là đường trung bình của $\triangle M N P$
+suy ra $I H=\frac{1}{2} M N$
+từ hai đẳng thức (1) và (2) ta có
+$I H=\frac{1}{4} \mathrm{AB}$ Chứng minh tương tự ta có $H K=\frac{1}{4} \mathrm{BC} I K=\frac{1}{4} \mathrm{AC}$
+vì $\frac{I H}{A B}=\frac{H K}{B C}=\frac{K I}{C A}=\frac{1}{4} n e \hat{n}$ ta có $\triangle I H K \cdots \triangle A B C$
+
+## Có thể cân nhắc thêm <br> Hoạt động 3: Luyện tập (10 phút)
+
+Bài tập 1: Cho tam giác ABC và DEF có $\mathrm{AB} / \mathrm{DE}=\mathrm{AC} / \mathrm{DF}=\mathrm{BC} / \mathrm{EF}=2 / 3$.
+Chứng minh hai tam giác đồng dạng.
+Bài tập 2:
+Một mô hình thu nhỏ của cây cầu được làm theo tỉ lệ 1:100.
+Nếu chiều dài cầu thật là 120 m thì mô hình dài bao nhiêu?
+
+## Hoạt động 4: Vận dụng thực tiễn (10 phút)
+
+Tình huống thực tế:
+GV chiếu hình ảnh một tòa nhà của trường và bóng của nó trên mặt đất.
+HS sử dụng nguyên lý tam giác đồng dạng để ước lượng chiều cao của tòa nhà.
+Hoạt động tích hợp AI:
+HS dùng điện thoại chụp ảnh một vật thể trong lớp và sử dụng AI đo chiều cao tương đối thông qua tỉ lệ hình ảnh.
+HS thảo luận kết quả.
+
+## Hoạt động 5: Mở rộng và sáng tạo (3 phút)
+
+GV đặt câu hỏi mở:
+Nếu chỉ biết hai cặp cạnh tỉ lệ thì hai tam giác có đồng dạng không?
+HS suy nghĩ để chuẩn bị cho bài học tiếp theo.
+
+I. Mục tiêu: Sau khi học xong bài này học sinh có khả năng:
+
+1. Về kiến thức:
+
+- Nhận biết và giải thích hai tam giác đồng dạng dựa trường hợp đồng dạng thứ nhất của hai tam giác.
+- Áp dụng trường hợp đồng dạng c.c.c của hai tam giác vào nhận biết hai tam giác vuông đồng dạng
+- Áp dụng các trường hợp đồng dạng của hai tam giác vào các vấn đề thực tiễn
+- Sử dụng được kiến thức để giải các dạng bài tập
+
+
+## 2. Về năng lực:
+
+* Năng lực chung:
+- Năng lực tự học: HS tự hoàn thành được các nhiệm vụ học tập chuẩn bị ở nhà và tại lớp.
+- Năng lực giao tiếp và hợp tác: HS phân công được nhiệm vụ trong nhóm, biết hỗ trợ nhau, trao đổi, thảo luận, thống nhất được ý kiến trong nhóm để hoàn thành nhiệm vụ.
+* Năng lực đặc thù:
+- Năng lực giao tiếp toán học: Nêu được Trường hợp đồng dạng thứ nhất của tam giác, Áp dụng vào tam giác vuông.
+- Năng lực sử dụng công cụ và phương tiện học toán: sử dụng được thước thẳng, thước đo độ, compa để đo độ dài cạnh, kiểm tra góc vuông, đo góc, vẽ tam giác theo tỉ lệ cho trước.
+- Năng lực tư duy và lập luận toán học, năng lực giải quyết vấn đề toán học, năng lực mô hình hóa toán học: thực hiện được các thao tác tư duy so sánh, phân tích, tổng hợp, khái quát hóa, ... để nhận biết và chứng minh hai tam giác đồng dạng với nhau theo trường hợp cạnh - cạnh - cạnh; vận dụng được các tính chất giải bài tập một số bài tập có nội dung gắn với thực tiễn.
+
+
+## 3. Về phẩm chất:
+
+- Chăm chỉ: thực hiện đầy đủ các hoạt động học tập một cách tự giác, tích cực.
+- Trung thực: thật thà, thẳng thắn trong báo cáo kết quả hoạt động cá nhân và theo nhóm, trong đánh giá và tự đánh giá.
+- Trách nhiệm: hoàn thành đầy đủ, có chất lượng các nhiệm vụ học tập.
+
+
+## II. Thiết bị dạy học và học liệu
+
+1. Giáo viên: SGK, kế hoạch bài day, thước thẳng, com pa, thước đo góc, giấy, máy chiếu
+2. Học sinh: SGK, thước thẳng, compa, thước đo góc, bảng nhóm
+
+## III. Tiến trình dạy học
+
+## 1. Hoạt động 1: Khởi động (5 phút)
+
+a) Mục tiêu: Gợi động cơ và bài mới
+b) Nội dung: Chơi trò chơi "Lật mảnh ghép" Thực hiện một số bài tập về tam giác đồng dạng.
+c) Sản phẩm: Từ bài toán HS vận dụng kiến thức để trả lời câu hỏi GV đưa ra
+d) Tổ chức thực hiện:
+
+| Hoạt động của GV - HS |
+| :---: |
+| * GV giao nhiệm vụ học tập |
+| GV tô̂ chức trò chơi yêu cẩu HS trả lời các câu |
+
+hỏi sau:
+H1: Cho $\triangle A^{\prime} B^{\prime} C^{\prime} \operatorname{cs} \triangle A B C$ có các cặp góc tương ứng bằng nhau là?
+
+H2: Cho $\triangle A^{\prime} B^{\prime} C^{\prime} \infty \triangle A B C$ có các cặp cạnh tương ứng tỉ lệ là?
+
+H3: Cho $\triangle A B C \backsim \triangle M N P$ có
+$A=45^{\circ}, B=60^{\circ}$ tính các góc $C, M$.
+
+Tiến trình nội dung
+Câu 1: Cho $\triangle A^{\prime} B^{\prime} C^{\prime} \backsim \triangle A B C$ có các cặp góc tương ứng bằng nhau là?
+
+Đáp án: A) $A=A^{\prime}, B=B^{\prime}, C=C^{\prime}$
+Câu 2: Cho $\triangle A^{\prime} B^{\prime} C^{\prime}$ cs $\triangle A B C$ có các cặp cạnh tương ứng tỉ lệ là?
+Đáp án: A) $\frac{A^{\prime} B^{\prime}}{A B}=\frac{B^{\prime} C^{\prime}}{B C}=\frac{A^{\prime} C^{\prime}}{A C}$
+Câu 3: Cho $\triangle A B C \backsim \triangle M N P$ có $A=45^{\circ}, B=60^{\circ}$ tính các góc C , M.
+
+Đáp án: D) $\hat{C}=75^{\circ}, \hat{M}=45^{\circ}$
+Câu 4: Cho $\triangle A B C \backsim \triangle M N P$ có
+
+| Hoạt động của GV - HS | Tiến trình nội dung |
+| :--- | :--- |
+| H4: Cho $\triangle A B C \backsim \triangle M N P$ có $A B=4, B C=5, M N=8$ tính độ dài cạnh NP <br> * HS thực hiện nhiệm vụ <br> - HS hoạt động cá nhân trong thời gian 2 phút. <br> - HS vận dụng kiến thức đã học, xác địnhcâu trả lời đúng. <br> * Báo cáo, thảo luận <br> - GV yêu cầu 4 HS trả lời câu hỏi trong phần trò chơi. <br> - HS cả lớp lắng nghe, nhận xét. <br> * Kết luận, nhận định <br> - GV Đưa tình huống trong phần đầu bài (chiếu Slide tương ứng). <br> Giáo viên chiếu hình ảnh hai tòa nhà có cùng hình dạng nhưng kích thước khác nhau. <br> Câu hỏi: Làm thế nào để biết hai hình này "giống nhau về hình dạng"? <br> GV dẫn dắt: Trong toán học, mối quan hệ này được gọi là "đồng dạng". Hôm nay chúng ta sẽ nghiên cứu một trường hợp đặc biệt của tam giác đông dạng. | $A B=4, B C=5, M N=8$ tính độ dài cạnh NP <br> Đáp án: A) 10 |
+
+2. Hoạt động 2: Hình thành kiến thức ( 20 phút)
+
+## Hoạt động 2.1: TRƯỜNG HỢP ĐỒNG DẠNG THỨ NHÁT CẠNH - CẠNH - CANH
+
+a) Mục tiêu:
+
+HS khám phá và phát biểu định lý.
+b) Nội dung:
+
+Bước 1: Khám phá bằng công nghệ
+GV sử dụng GeoGebra hiển thị hai tam giác có các cạnh tỉ lệ.
+HS quan sát và nhận xét.
+Bước 2: Thảo luận nhóm
+HS đo các cạnh và lập tỉ số.
+Bước 3: Kết luận
+HS rút ra nhận xét:
+Nếu ba cặp cạnh của hai tam giác tỉ lệ thì hai tam giác đó đồng dạng.
+GV chuâ̂n hóa kiến thức và ghi bảng định lý.
+c) Sản phẩm:
+
+- HS hoàn thành tìm hiểu kiến thức
+d) Tổ chức thực hiện:
+
+| Hoạt động của GV - HS | Tiến trình nội dung |
+| :--- | :--- |
+| * GV giao nhiệm vụ học tập 1 <br> - GV yêu cầu HS thực hiện hoạt động 1 SGK : Trong Hình 56 và so sanh các tỉ số $\frac{A^{\prime} B^{\prime}}{A B} ; \frac{B^{\prime} C^{\prime}}{B C} ; \frac{A^{\prime} C^{\prime}}{A C}$ (hiển thị tam giác trên ứng dụng GeoGebra) | I. TRƯỜNG HỢP ĐỒNG DẠNG THÚ' NHẤT CẠNH - CẠNH - CẠNH |
+
+- Giới thiệu định lí:
+* HS thực hiện nhiệm vụ 1
+- HS Hoạt động cá nhân để thực hiện hoạt động 1 trong SGK
+- Hướng dân hỗ trợ: GV quan sát hỗ trợ HS thực hiện tính tỉ lệ các cạnh của hai tam giác đúng theo yêu câu của bài toán.
+* Báo cáo, thảo luận 1
+- GV yêu cầu HS trả lời miệng hoạt động 1
+- HS cả lớp quan sát, lắng nghe, nhận xét.
+* Kết luận, nhận định 1
+- GV chính xác hóa kết quả hoạt động 1 và giới thiệu trường hợp đồng dạng thứ nhất cạnh - cạnh - cạnh của tam giác.
+
+GV chiếu Slide về chứng minh định lí yêu cầu HS đứng tại chỗ trình bày cách chứng minh.
+Yêu cầu HS về nhà làm lại coi như bài tập về nhà
+
+## * GV giao nhiệm vụ học tập 2
+
+Quan sát hình 58 hãy chỉ ra các tam giác đồng dạng.
+![](https://cdn.mathpix.com/cropped/a3deb612-95b5-41ed-a0e6-d16ae1dc9f3b-3.jpg?height=242&width=706&top_left_y=1194&top_left_x=302)
+
+## * HS thực hiện nhiệm vụ 2
+
+- HS thảo luận cặp đôi Ví dụ 1 sau đó trình bày kết quả
+
+
+## * Báo cáo, thảo luận 2
+
+- GV hướng dẫn HS thảo luận theo cặp đôi, sau đó gọi đại diện cặp đôi trả lời.
+- Yêu cầu HS nhận xét câu trả lời của bạn
+* Kết luận, nhận định 2
+- GV chính xác hóa các kết quả và khắc sâu kiến thức về định lí Trường hợp đồng dạng thứ nhất của tam giác.
+![](https://cdn.mathpix.com/cropped/a3deb612-95b5-41ed-a0e6-d16ae1dc9f3b-3.jpg?height=755&width=746&top_left_y=116&top_left_x=1104)
+
+Định lí: Nếu ba cạnh của một tam giác này tỉ lệ với ba cạnh của một tam giác kia thì hai tam giác đó đồng dạng với nhau.
+
+## Ví dụ 1
+
+Xét hai $\triangle A B C$ và $\triangle M N P$ có
+$\frac{A B}{M N}=\frac{5}{2,5}=2, \frac{B C}{N P}=\frac{4}{2}=2$,
+$\frac{C A}{P M}=\frac{6}{3}=2$
+Suy ra $\frac{A B}{M N}=\frac{B C}{N P}=\frac{C A}{P M}$
+Vậy $\triangle A B C \backsim \triangle M N P$
+Xét hai $\triangle D E F$ và $\triangle S Q R$ có
+$\frac{D E}{S Q}=\frac{2,2}{4,4}=\frac{1}{2}, \frac{E F}{Q R}=\frac{2}{4}=\frac{1}{2}$,
+$\frac{F D}{R S}=\frac{3}{6}=\frac{1}{2}$
+Suy ra $\frac{D E}{S Q}=\frac{E F}{Q R}=\frac{F D}{R S}$
+Vậy $\triangle D E F \backsim \triangle S Q R$
+
+Suy ra $\frac{A B}{M N}=\frac{B C}{N P}=\frac{C A}{P M}$
+Vậy $\triangle A B C \backsim \triangle M N P$
+Xét hai $\triangle D E F$ và $\triangle S Q R$ có
+
+|  | $\frac{D E}{S Q}=\frac{2,2}{4,4}=\frac{1}{2}, \frac{E F}{Q R}=\frac{2}{4}=\frac{1}{2}$, <br> $\frac{F D}{R S}=\frac{3}{6}=\frac{1}{2}$ <br> Suy ra $\frac{D E}{S Q}=\frac{E F}{Q R}=\frac{F D}{R S}$ <br> Vậy $\triangle D E F \backsim \triangle S Q R$ |
+| :--- | :--- |
+
+## Hoạt động 2.2: Luyện tập
+
+a) Mục tiêu:
+
+- Thực hiện được ví dụ 1 và phần luyện tập 1 .
+b) Nội dung:
+- Thực hiện hoạt động 1 SGK
+- Thực hiện ví dụ 2 SGK
+c) Sản phẩm:
+- HS làm được HĐ 1 và ví dụ 2.
+- Áp dụng được định lí trường hợp đồng dạng thứ nhất của tam giác.
+d) Tổ chức thực hiện:
+
+| Hoạt động của GV - HS | Tiến trình nội dung |
+| :--- | :--- |
+| * GV giao nhiệm vụ học tập 1 <br> - Thực hiện Luyện tập 1-SGK -75 <br> + Yêu cầu Hs vẽ hình. <br> + HĐ cặp đôi thực hiện làm bài tập.![](https://cdn.mathpix.com/cropped/a3deb612-95b5-41ed-a0e6-d16ae1dc9f3b-4.jpg?height=547&width=601&top_left_y=1392&top_left_x=297) <br> * HS thực hiện nhiệm vụ 1 <br> - HS thảo luận cặp đôi thực hiện nhiệm vụ học tập 1 <br> - Đại diện học sinh trình bày kết quả <br> * Báo cáo, thảo luận 1 <br> - GV yêu cầu 1 HS đại diện đứng tại chỗ trình bày kết quả hoạt động 1 SGK <br> - HS lắng nghe và nhận xét bài làm của bạn. <br> * Kết luận, nhận định 1 <br> - GV lắng nghe rồi chốt lại tính chất của tam giác cân | Hoạt động 1 <br> Sử dụng tính chất đường trung bình của tam giác ta có $\frac{A^{\prime} B^{\prime}}{A B}=\frac{A^{\prime} C^{\prime}}{A C}=\frac{B^{\prime} C^{\prime}}{B C}=\frac{1}{2}$. <br> Nên ta có $\triangle A^{\prime} B^{\prime} C^{\prime}$ cs $\triangle A B C$ |
+| * GV giao nhiệm vụ học tập 2 | Ví dụ 2 |
+
+![](https://cdn.mathpix.com/cropped/a3deb612-95b5-41ed-a0e6-d16ae1dc9f3b-5.jpg?height=487&width=399&top_left_y=214&top_left_x=300)
+
+## * Ví dụ 2
+
+- Thực hiện ví dụ 2 SGK - 75
+* HS thực hiện nhiệm vụ 2
+- HS hoạt động thực hiện cá nhân ví dụ 2 sau đó trình bày kết quả
+* Báo cáo, thảo luận 2
+- GV yêu cầu 1 HS lên bảng trình bày ví dụ 2 trang 75 SGK
+- GV yêu cầu HS cả lớp quan sát và nhận xét bài làm của bạn.
+- GV yêu cầu 1 HS đọc chú ý trang 75 SGK
+* Kết luận, nhận định 2
+- GV nhận xét bài làm của HS
+- GV chính xác hóa kết quả và giới thiệu về tam giác vuông cân, tính chất của tam giác vuông cân.
+
+Vì $M, N$ lần lượt là trung điểm của các cạnh $B C, C A$ nên $M N$ là đường trung bình của tam giác $A B C$.
+Suy ra $M N=\frac{1}{2} A B(1)$
+Vì $I, H$ lần lượt là trung điểm của các cạnh $N P, P M$ nên $I H$ là đường trung bình của $\triangle M N P$
+suy ra $I H=\frac{1}{2} M N$
+từ hai đẳng thức (1) và (2) ta có
+$I H=\frac{1}{4} \mathrm{AB}$ Chứng minh tương tự ta có $H K=\frac{1}{4} \mathrm{BC} I K=\frac{1}{4} \mathrm{AC}$
+vì $\frac{I H}{A B}=\frac{H K}{B C}=\frac{K I}{C A}=\frac{1}{4} n e \hat{n}$ ta có $\triangle I H K \cdots \triangle A B C$
+
+## Có thể cân nhắc thêm <br> Hoạt động 3: Luyện tập (10 phút)
+
+Bài tập 1: Cho tam giác ABC và DEF có $\mathrm{AB} / \mathrm{DE}=\mathrm{AC} / \mathrm{DF}=\mathrm{BC} / \mathrm{EF}=2 / 3$.
+Chứng minh hai tam giác đồng dạng.
+Bài tập 2:
+Một mô hình thu nhỏ của cây cầu được làm theo tỉ lệ 1:100.
+Nếu chiều dài cầu thật là 120 m thì mô hình dài bao nhiêu?
+
+## Hoạt động 4: Vận dụng thực tiễn (10 phút)
+
+Tình huống thực tế:
+GV chiếu hình ảnh một tòa nhà của trường và bóng của nó trên mặt đất.
+HS sử dụng nguyên lý tam giác đồng dạng để ước lượng chiều cao của tòa nhà.
+Hoạt động tích hợp AI:
+HS dùng điện thoại chụp ảnh một vật thể trong lớp và sử dụng AI đo chiều cao tương đối thông qua tỉ lệ hình ảnh.
+HS thảo luận kết quả.
+
+## Hoạt động 5: Mở rộng và sáng tạo (3 phút)
+
+GV đặt câu hỏi mở:
+Nếu chỉ biết hai cặp cạnh tỉ lệ thì hai tam giác có đồng dạng không?
+HS suy nghĩ để chuẩn bị cho bài học tiếp theo.
+
+
+
+

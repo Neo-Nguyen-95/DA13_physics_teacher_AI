@@ -7,7 +7,7 @@ from business import get_knowledge_text, retrieve_relevant_knowledge
 
 #%% SIDER BAR INFOR & SIGN IN
 st.set_page_config(
-    page_title = 'Physics Assistant',
+    page_title = 'Math Assistant',
     page_icon = '🔧'
     )
 
@@ -16,8 +16,8 @@ with st.sidebar:
     st.markdown("""
                 **GIỚI THIỆU**
                 
-                Xin chào các em đã đến với trợ lí ảo học tập của cô, Tí Quậy 
-                Ham Học. Tí Quậy sử dụng công nghệ trí tuệ nhân tạo, có thể giúp
+                Xin chào các em đã đến với trợ lí ảo học tập của cô, AI 
+                Ham Học. AI. công nghệ trí tuệ nhân tạo, có thể giúp
                 các em giải đáp thắc mắc trong giờ học của cô.
                 
                 ---
@@ -42,7 +42,7 @@ with st.sidebar:
 knowledge_text = get_knowledge_text()
 
 sys_msg = """
-Bạn là một giáo viên vật lí, bạn chỉ trả lời câu hỏi thông qua kiến thức vật lí hoặc 
+Bạn là một giáo viên toán, bạn chỉ trả lời câu hỏi thông qua kiến thức toán hoặc 
 thông tin tham khảo thêm từ người dùng. 
 Nếu câu hỏi không trong sáng, từ chối trả lời một cách lễ phép.
 Sử dụng ngôn ngữ trong sáng. Nếu có công thức toán học, viết ở giữa hai dấu $.
@@ -52,8 +52,8 @@ Trả lời đơn giản, đối tượng là học sinh trung học cơ sở.
 """
         
 #%% MAIN SECTION
-st.title("Tí Quậy Ham Học")
-st.caption("Trợ giảng Khoa học tự nhiên từ Trí tuệ nhân tạo")
+st.title("AI Ham Học")
+st.caption("Trợ giảng môn Toán")
 
 if "messages" not in st.session_state:
     # Initial key-value in session state
@@ -64,7 +64,7 @@ if "messages" not in st.session_state:
         # Welcome message
         {"role": "assistant", 
          "content": 
-             """Xin chào, mình là trợ lí ảo của cô giáo Hoàn, giáo viên tại 
+             """Xin chào, mình là trợ lí ảo của cô giáo Vân Anh, giáo viên tại 
              trường THCS Yên Sở.
              Mình có thể giúp gì cho bạn?
              """
