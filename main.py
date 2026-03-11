@@ -32,6 +32,7 @@ with st.sidebar:
     # To be delete later
     openai_api_key = st.secrets["key"]
     
+    
 #%% INPUT FOR AI
 knowledge_text = get_knowledge_text()
 
