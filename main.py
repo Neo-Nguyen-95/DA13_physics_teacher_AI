@@ -82,10 +82,6 @@ if prompt := st.chat_input():  # Chat box
         st.info("Please add your key")
         st.stop()
         
-    # if passcode != passcode_system:
-    #     st.info("Code không hợp lệ, xin thử lại!")
-    #     st.stop()
-        
     # Show what the user types
     st.chat_message("user").write(prompt)
     

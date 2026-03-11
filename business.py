@@ -2,15 +2,6 @@
 from openai import OpenAI
 import numpy as np
 import faiss
-
-
-# FOR OFFLINE MODEL
-# from dotenv import load_dotenv
-# import os
-# load_dotenv()
-# OPENAI_API_KEY = os.getenv("SECRETE_KEY")
-
-# FOR ONLINE MODEL
 import streamlit as st
 OPENAI_API_KEY = st.secrets["key"]
 
