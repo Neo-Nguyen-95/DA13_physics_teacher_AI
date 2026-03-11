@@ -32,7 +32,7 @@ with st.sidebar:
                 """)
                 
     openai_api_key = st.secrets["key"]
-    st.write(openai_api_key)
+    # st.write(openai_api_key)
 
     
 #%% INPUT FOR AI
