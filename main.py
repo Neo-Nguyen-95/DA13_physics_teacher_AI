@@ -30,7 +30,7 @@ with st.sidebar:
                 """)
       
     # To be delete later
-    openai_api_key = st.secrets["api"]["key"]
+    openai_api_key = st.secrets["key"]
     
     # passcode = st.text_input("Nhập code để sử dụng phần mềm",
     #                          type="password")
