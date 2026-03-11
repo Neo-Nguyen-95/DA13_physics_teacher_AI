@@ -12,7 +12,7 @@ import faiss
 
 # FOR ONLINE MODEL
 import streamlit as st
-OPENAI_API_KEY = st.secrets["api"]["key"]
+OPENAI_API_KEY = st.secrets["key"]
 
 #%% GET KNOWLEDGE TEXT
 def get_clean_text(file_path):
