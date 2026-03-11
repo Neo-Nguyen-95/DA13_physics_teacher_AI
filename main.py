@@ -11,7 +11,7 @@ st.set_page_config(
     page_icon = '🔧'
     )
 
-openai_api_key = st.secrets["key"]
+
 
 with st.sidebar:
     st.image('teacher_image.png')
@@ -30,6 +30,9 @@ with st.sidebar:
                 - Hỏi lại AI nếu chưa hiểu câu trả lời
                 
                 """)
+                
+    openai_api_key = st.secrets["key"]
+    st.write(openai_api_key)
 
     
 #%% INPUT FOR AI
