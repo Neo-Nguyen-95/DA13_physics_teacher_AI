@@ -112,8 +112,9 @@ if prompt := st.chat_input():  # Chat box
     
     # Get response from API & store it in session state
     response = client.chat.completions.create(
-        model="gpt-4o-mini",
-        messages = st.session_state.messages  # Input full chat history
+        model="gpt-5.6-luna",
+        reasoning_effort="none",
+        messages=st.session_state.messages  # Input full chat history
         )
     
     msg = response.choices[0].message.content  # Current response
